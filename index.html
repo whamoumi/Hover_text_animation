@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./index.
+	css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container4">
+		<div class="ronde" id="roro"></div>
+		<ul>
+			<li>
+				HAMOUMI WANIS
+			</li>
+		</ul>
+	</div>
+	<script>
+		var body = document.getElementById('coco');
+		var ronde = document.getElementById('roro');
+		window.addEventListener("mousemove", (e)=> {
+			ronde.style.top = e.clientY  +"px";
+			ronde.style.left = e.clientX +"px";
+			ronde.style.width = "150px";
+			ronde.style.height = "150px";
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+:root {
+  --color: cyan;
+}
+
+@font-face {
+  font-family: Vogue;
+  src: url(./Vogue.ttf);
+}
+
+@font-face {
+  font-family: rr;
+  src: url(./MADE-Bon-Voyage-Regular-PERSONAL-USE.ttf);
+}
+
+@font-face {
+  font-family: rrr;
+  src: url(.//MADE-Bon-Voyage-Thin-PERSONAL-USE.ttf);
+}
+
+.container3::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: 'rrr', cursive;
+  font-size: 40px;
+}
+
+body .container4 {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  font-family: rrr;
+  position: relative;
+  cursor: none;
+}
+
+body .container4 .ronde {
+  position: absolute;
+  z-index: 3;
+  border-radius: 50%;
+  background-color: white;
+  mix-blend-mode: difference;
+}
+
+body .container4 ul {
+  list-style: none;
+}
+
+body .container4 li {
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  mix-blend-mode: difference;
+}
+/*# sourceMappingURL=index.css.map */
